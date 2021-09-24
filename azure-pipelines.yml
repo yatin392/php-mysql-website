@@ -26,6 +26,6 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(System.CurrentWorkingDirectory)'
+    SourceFolder: '$(system.defaultworkingdirectory)'
     Contents: '**'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
