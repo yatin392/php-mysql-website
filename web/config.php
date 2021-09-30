@@ -2,7 +2,7 @@
 
 session_start();
 
-$db_host = "yat";
+$db_host = "yatin sharma";
 $db_user = "username";
 $db_pass = "password";
 $db_name = "database";
